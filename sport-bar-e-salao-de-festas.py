@@ -17,4 +17,5 @@ def imagem_ao_fundo():
         unsafe_allow_html=True
     )
 imagem_ao_fundo()
-st.title("Reserva do Sport Bar e do Salão de Festas")
+st.title("Reserva Sport Bar e Salão de Festas")
+
