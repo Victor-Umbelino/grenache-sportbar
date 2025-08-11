@@ -5,14 +5,15 @@ import tempfile
 from datetime import datetime
 def imagem_ao_fundo():
     st.markdown(
+        """
         <style>
-        .stApp{{
-            background-image:url(https://delman.com.br/admin/wp-content/uploads/2020/12/IMG_0956-Copia-1024x683.jpg);
+        .stApp {
+            background-image: url("https://delman.com.br/admin/wp-content/uploads/2020/12/IMG_0956-Copia-1024x683.jpg");
             background-attachment: fixed;
             background-size: cover;
-        }}
-        <style>
-
+        }
+        </style>
+        """,
         unsafe_allow_html=True
     )
 imagem_ao_fundo()
