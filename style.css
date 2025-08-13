@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, #D9C6BA);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, #D9C6BA, #731b0752);
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+}
+
+h1 {
+    font-family: "Faculty Glyphic", Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    color: #731B07;
+    text-shadow: #400601 1px 1px 1px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2.5em;
+}
+
+.barra {
+    height: 4px;
+    background: linear-gradient(to top, #D9C6BA, #731B07);
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: #400601 1px 1px 1px;
+    text-align: center;
+    color: #593C19;
+    margin-top: 20px;
+}
+
+a {
+    color: #400601;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botões {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.botões:hover {
+    color: #1b0773;
+    text-decoration: underline;
+}
+
+/* Color Theme Swatches in Hex */
+.Juri-Senft-in-Scotland-1-hex { color: #593C19; }
+.Juri-Senft-in-Scotland-2-hex { color: #8C6542; }
+.Juri-Senft-in-Scotland-3-hex { color: #D9C6BA; }
+.Juri-Senft-in-Scotland-4-hex { color: #731B07; }
+.Juri-Senft-in-Scotland-5-hex { color: #400601; }
+
+/* Color Theme Swatches in RGBA */
+.Juri-Senft-in-Scotland-1-rgba { color: rgba(89, 60, 24, 1); }
+.Juri-Senft-in-Scotland-2-rgba { color: rgba(140, 100, 65, 1); }
+.Juri-Senft-in-Scotland-3-rgba { color: rgba(216, 197, 186, 1); }
+.Juri-Senft-in-Scotland-4-rgba { color: rgba(114, 26, 6, 1); }
+.Juri-Senft-in-Scotland-5-rgba { color: rgba(63, 6, 1, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Juri-Senft-in-Scotland-1-hsla { color: hsla(33, 56, 22, 1); }
+.Juri-Senft-in-Scotland-2-hsla { color: hsla(28, 36, 40, 1); }
+.Juri-Senft-in-Scotland-3-hsla { color: hsla(22, 28, 79, 1); }
+.Juri-Senft-in-Scotland-4-hsla { color: hsla(11, 88, 23, 1); }
+.Juri-Senft-in-Scotland-5-hsla { color: hsla(5, 96, 12, 1); }
